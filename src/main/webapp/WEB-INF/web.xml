@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+	<display-name>Aplicacion</display-name>
+	
+<!--- Apoderado.................................................................. -->
+
+<servlet>
+    <servlet-name>GenerarPDFattorney</servlet-name>
+    <servlet-class>controller.GenerarPDFattorney</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarPDFattorney</servlet-name>
+    <url-pattern>/GenerarPDFattorney</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>GenerarCSVattorney</servlet-name>
+    <servlet-class>controller.GenerarCSVattorney</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarCSVattorney</servlet-name>
+    <url-pattern>/GenerarCSVattorney</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>GenerarXLSattorney</servlet-name>
+    <servlet-class>controller.GenerarXLSattorney</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarXLSattorney</servlet-name>
+    <url-pattern>/GenerarXLSattorney</url-pattern>
+</servlet-mapping>
+
+<!--- Encargado................................................ -->
+
+<servlet>
+    <servlet-name>GenerarPDFmanager</servlet-name>
+    <servlet-class>controller.GenerarPDFmanager</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarPDFmanager</servlet-name>
+    <url-pattern>/GenerarPDFmanager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>GenerarCSVmanager</servlet-name>
+    <servlet-class>controller.GenerarCSVmanager</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarCSVmanager</servlet-name>
+    <url-pattern>/GenerarCSVmanager</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>GenerarXLSmanager</servlet-name>
+    <servlet-class>controller.GenerarXLSmanager</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarXLSmanager</servlet-name>
+    <url-pattern>/GenerarXLSmanager</url-pattern>
+</servlet-mapping>
+
+<!--- Tramites................................................................ -->
+
+
+<servlet>
+    <servlet-name>GenerarPDFoperation</servlet-name>
+    <servlet-class>controller.GenerarPDFoperation</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarPDFoperation</servlet-name>
+    <url-pattern>/GenerarPDFoperation</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>GenerarCSVoperation</servlet-name>
+    <servlet-class>controller.GenerarCSVoperation</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarCSVoperation</servlet-name>
+    <url-pattern>/GenerarCSVoperation</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>GenerarXLSoperation</servlet-name>
+    <servlet-class>controller.GenerarCSVoperation</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>GenerarXLSoperation</servlet-name>
+    <url-pattern>/GenerarXLSoperation</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+</web-app>
